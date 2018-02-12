@@ -31,34 +31,6 @@ namespace Fisher.Bookstore
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
-            
-                routes.MapRoute(
-                    name: "about",
-                    template: "{controller=About}/{action=Index}/{id?}");
-                 
-                routes.MapRoute(
-                    name: "abouth",
-                    template: "{controller=About}/{action=History}/{id?}");
-
-                routes.MapRoute(
-                    name: "aboutl",
-                    template: "{controller=About}/{action=Location}/{id?}");
-                
-                routes.MapRoute(
-                    name: "booksdefault",
-                    template: "{controller=Books}/{action=Index}/{id?}");
-
-                routes.MapRoute(
-                    name: "booksnew",
-                    template: "{controller=Books}/{action=New}/{id?}");
-
-                routes.MapRoute(
-                    name: "authorsdefault",
-                    template: "{controller=Authors}/{action=Index}/{id?}");
-
-                routes.MapRoute(
-                    name: "authorsfeatured",
-                    template: "{controller=Authors}/{action=Featured}/{id?}");
                 
             });
         }
